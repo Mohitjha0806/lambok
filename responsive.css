@@ -1,0 +1,272 @@
+/* ================navbar-responsive-start================ */
+
+@media screen and (max-width: 600px) {
+ 
+  .nav-bar {
+    width: 100vw
+  }
+}
+
+@media (max-width: 600px) {
+  
+  li{
+    overflow: hidden;
+  }
+  span {
+    display: block;
+  }
+  ul li {
+    display: block;
+    transition: ease 2s;
+  }
+  ul {
+    display: none;
+  }
+}
+
+
+/* ================navbar-responsive-end================ */
+
+@media screen and (max-width: 600px) {
+  .container {
+    height: 600px;
+    background-image: url(https://images.unsplash.com/photo-1477554193778-9562c28588c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    width: 100vw;
+    display: flex;
+  }
+
+  .suscribe {
+    margin-right: 4vw;
+  }
+
+  nav {
+    position: fixed;
+  }
+
+  .box {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    font-size: 2.5vh;
+  }
+
+  .list {
+    font-size: 0.5vh;
+    color: rgba(0, 0, 0, 0.716);
+    margin-right: 3vw;
+  }
+
+  h1 {
+    font-size: 8vh;
+    color: rgba(0, 0, 0, 0.716);
+  }
+
+  h2 {
+    font-size: 3vh;
+    color: rgba(0, 0, 0, 0.716);
+  }
+
+  hr {
+    width: 10vw;
+    height: 1vh;
+    background-color: rgba(0, 0, 0, 0.521);
+  }
+}
+
+@media screen and (max-width: 539px) {
+  h1 {
+    font-size: 6vh;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  h1 {
+    font-size: 4vh;
+  }
+
+  h2 {
+    font-size: 1.8vh;
+    color: rgba(0, 0, 0, 0.716);
+  }
+}
+
+/* -----------------------navigation-responsive--------- */
+
+/* -------------------------container-2-start responsive--------------------- */
+
+@media screen and (max-width: 600px) {
+  .container-2 {
+    width: 100vw;
+    height: 300vh;
+    overflow: hidden;
+  }
+
+  .box-2 {
+    width: 90vw;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cart-box {
+    width: 70vw;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    gap: 10vh;
+  }
+
+  .cart-1 {
+    width: 80vw;
+    height: 60vh;
+    display: grid;
+  }
+
+  .cart-2 {
+    width: 80vw;
+    height: 55vh;
+    display: grid;
+  }
+
+  .cart-3 {
+    width: 80vw;
+    height: 60vh;
+    display: grid;
+  }
+
+  .cart-4 {
+    width: 80vw;
+    height: 60vh;
+    display: grid;
+  }
+
+  .upper1 {
+    width: 80vw;
+    height: 30vh;
+  }
+
+  .upper2 {
+    width: 80vw;
+    height: 30vh;
+  }
+
+  .upper3 {
+    width: 80vw;
+    height: 30vh;
+  }
+
+  .upper4 {
+    width: 80vw;
+    height: 30vh;
+  }
+
+  .hr2 {
+    width: 80vw;
+    height: 7vh;
+  }
+
+  .down {
+    width: 80vw;
+    height: 20vh;
+  }
+}
+
+/* -------------------------container-2-End--responsive------------------- */
+
+/* -------------------------container-3-responsive-start-------------------- */
+@media screen and (max-width: 600px) {
+  .container-3 {
+    width: 100vw;
+    height: 80vh;
+    background-color: white;
+  }
+
+  .box-3 {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+  }
+
+  .left3 {
+    width: 100vw;
+    height: 30vh;
+  }
+
+  .right3 {
+    width: 100vw;
+    height: 35vh;
+  }
+
+  .right3-box {
+    width: 100vw;
+    height: 25vh;
+  }
+
+  .upper-right3 {
+    width: 100vw;
+    height: 2vh;
+  }
+
+  .hr-right3 {
+    width: 100vw;
+    height: 2vh;
+  }
+
+  .hr-right3 hr {
+    width: 10vw;
+    height: 0.5vh;
+  }
+
+  .down-right3 {
+    width: 100vw;
+    height: 26vh;
+    padding: 2vh 5vw;
+    font-size: 5rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+/* -------------------------container-3-responsive-end-------------------- */
+
+/* ============.container-4==start= respponsive=============== */
+@media screen and (max-width: 600px) {
+  input {
+    width: 80vw;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+  }
+  i {
+    font-size: 1rem;
+  }
+  .footer-right {
+    gap: 2vw;
+    font-size: 0.7rem;
+  }
+}
+
+/* ============.container-4==end= respponsive=============== */
